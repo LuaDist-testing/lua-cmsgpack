@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-cmsgpack"
-version = "0.3-1"
+version = "0.3-2"
 -- LuaDist source
 source = {
-  tag = "0.3-1",
+  tag = "0.3-2",
   url = "git://github.com/LuaDist-testing/lua-cmsgpack.git"
 }
 -- Original source
@@ -24,7 +24,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      msgpack = {
+      cmsgpack = {
          sources = {
             "lua_cmsgpack.c",
          }
