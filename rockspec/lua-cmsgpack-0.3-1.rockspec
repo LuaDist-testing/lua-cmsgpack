@@ -1,19 +1,11 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "lua-cmsgpack"
-version = "0.3-2"
--- LuaDist source
+version = "0.3.1-0"
 source = {
-  tag = "0.3-2",
-  url = "git://github.com/LuaDist-testing/lua-cmsgpack.git"
+   url = "git://github.com/antirez/lua-cmsgpack.git",
+   tag = "0.3.1"
 }
--- Original source
--- source = {
---    url = "git://github.com/antirez/lua-cmsgpack.git",
---    branch = "0.3.0"
--- }
 description = {
-   summary = "MessagePack C implementation and bindings for Lua 5.1",
+   summary = "MessagePack C implementation and bindings for Lua 5.1/5.2",
    homepage = "http://github.com/antirez/lua-cmsgpack",
    license = "Two-clause BSD",
    maintainer = "Salvatore Sanfilippo <antirez@gmail.com>"
